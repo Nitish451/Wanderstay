@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+}
+/*footer*/
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/*space evenly ,wrap*/
+
+/*cards*/
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none !important;
+}
+/*card effect*/
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+/* new page*/
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+/* edit page*/
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+/*show page*/
+
+.show-img {
+  height: 30vh;
+}
+.btns {
+  display: flex;
+}
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* index.ejs */
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: blue;
+}
+
+.filter p {
+  font-size: 0.8rem;
+}
+.tax-info {
+  display: none;
+}
+.tax-switch {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  display: inline-flex;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+/* map */
+
+ 
+ #map { 
+  height: 400px;
+  width: 90vh;
+  } 
+
+
