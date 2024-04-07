@@ -1,4 +1,4 @@
-Delta-project
+Wanderstay
 
 • Places to explore where wanders can wander and explore.
 
