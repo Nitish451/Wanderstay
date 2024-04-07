@@ -4,4 +4,4 @@ Delta-project
 
 • Get lost in the mesmerising view which you want to explore.
 
-Deploy here: https://delta-project-7uso.onrender.com/
+Deploy here: http://revathi.lnkiy.in/wanderstay
