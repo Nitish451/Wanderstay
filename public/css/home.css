@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 95vh;
+    overflow: hidden;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: #fe424d;
+  }
+  
+  a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.8rem;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    margin-left: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a:hover {
+    box-shadow: 3px 3px 3px 3px black;
+    top: -8px;
+  }
+  
+  #title {
+    background-color: rgb(33, 56, 75);
+    height: 50px;
+    width: 100%;
+  }
+  
+  h3 {
+    text-shadow: 0 0 7px #fff, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa;
+    margin-top: 40px;
+    display: run-in;
+    font-size: 1.4vw;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: 5s linear 1s infinite running slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translateX(-40vh);
+    }
+    to {
+      transform: translateX(200vh);
+    }
+  }
+  
+  p {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-timing-function: ease-in 1s;
+    font-size: 1.4rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  @media (max-width: 1920px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 50rem;
+    }
+  }
+  
+  @media (max-width: 1366px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    p {
+      width: 100%;
+    }
+    a{
+      margin: 30rem;
+    }
+  }
