@@ -31,7 +31,7 @@ main()
     console.log(err);
   });
 async function main() {
-  await mongoose.connect( dburl);
+  await mongoose.connect(dbUrl );
 }
 
 app.set("view engine", "ejs");
