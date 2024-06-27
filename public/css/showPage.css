@@ -1,0 +1,191 @@
+.master-div{
+  width: 97vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: rem 0 ;
+  gap: 1rem;
+  margin-left: 0%;
+
+}
+
+.listing-name{
+  width: 100%;
+  min-height: 3rem;
+  text-align: justify;
+  font-size: 5vw;
+  padding:0 2rem;
+  font-weight: 800;
+}
+
+.show-page-card{
+  width: 90vw;
+  max-width: 390px;
+  max-height: fit-content;
+  margin-top: 7px;
+}
+
+.show-page-card-img{
+  border-radius: 25px;
+  width: 90vw;
+  height: 90vw;
+  max-width: 387px;
+  max-height: 387px;
+}
+
+.content-div{
+  padding: 1rem;
+}
+
+.listing-owner-name{
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.listing-description{
+  font-size: 3vw;
+}
+
+.listing-price{
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.location-country-div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 3.85vw;
+}
+
+.buttons-div{
+  display: flex;
+  width: 100%;
+  flex-wrap:nowrap;
+  gap: 1rem;
+}
+
+.master-review-div{
+  display: block;
+  padding: 1rem 0;
+}
+
+.show-page-review-div{
+  width: 90vw;
+  max-width: 390px;
+  display: block;
+  margin-top: 7px;
+}
+.review-title{
+  font-weight:800;
+}
+
+.all-review-div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.all-review-title{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.review-div{
+  display: block;
+  padding: 1rem;
+  border-radius: 35px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.123);
+}
+
+#comment{
+  overflow: auto;
+}
+
+/* Map */
+
+.map-div{
+  display:flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 500px; 
+  
+ 
+  
+}
+
+.map-title{
+  width: 100%;
+  font-weight: 800;
+  margin-top: 7px;
+}
+
+#map {
+  width: 90vw;
+  height: 90vw;
+  max-width: 287px;
+  max-height: 387px;
+  border: 3px green solid;
+  border-radius: 5%;
+ 
+} 
+
+
+@media screen and (min-width:430px) {
+  
+  .listing-name{
+      font-size: 21.5px;
+  }
+
+  .listing-owner-name{
+      font-size: 17.2px;
+  }
+
+  .listing-description{
+      font-size: 14px;
+  }
+
+  .listing-price{
+      font-size: 15.05px;
+  }
+  .location-country-div{
+      font-size: 16.5px;
+  }
+
+  .map-title{
+      font-size: 16px;
+  }
+
+  .review-title{
+      font-size: 16px;
+  }
+}
+
+
+/* map */
+
+
+.map-div{
+  display:flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+} */
+
+
+ 
+ /* #map { 
+  height: 300px;
+  width: 90vh;
+  }  */
+
+
+  /* #map-title{
+    width: 100%;
+    font-weight: 800;
+}

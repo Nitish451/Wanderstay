@@ -22,39 +22,7 @@ body {
 .nav-link {
   color: #222222 !important;
 }
-/*footer*/
-.f-info-links a {
-  text-decoration: none;
-  color: #222222;
-}
-.f-info-links a:hover {
-  text-decoration: underline;
-}
-.f-info-links,
-.f-info-socials,
-.f-info-brands {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.f-info-socials i {
-  margin-right: 1rem;
-  font-size: 1.2rem;
-}
-
-.f-info {
-  text-align: center;
-  height: 8rem;
-  background-color: #ebebeb;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: space-evenly;
-}
-
-/*space evenly ,wrap*/
 
 /*cards*/
 
@@ -97,16 +65,8 @@ body {
 }
 /*show page*/
 
-.show-img {
-  height: 30vh;
-}
-.btns {
-  display: flex;
-}
-.show-card {
-  padding-left: 0;
-  padding-right: 0;
-}
+
+
 
 /* index.ejs */
 
@@ -133,7 +93,7 @@ body {
 .tax-info {
   display: none;
 }
-.tax-switch {
+.tax-toggle {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 0.4rem;
@@ -145,12 +105,33 @@ body {
   align-items: center;
 }
 
-/* map */
 
- 
- #map { 
-  height: 400px;
-  width: 90vh;
-  } 
 
+
+
+
+
+ /* index page */
+@media screen and (max-width:1056px) {
+  .navbar-center-content-div{
+    display: none;
+  }
+}
+
+@media screen and (max-width:743px) {
+
+  .navbar-container{
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-search-div{
+    display: none;
+  }
+  
+  .navbar-add-btn,
+  .navbar-globe-btn{
+    display: none;
+  }
+}
+  
 

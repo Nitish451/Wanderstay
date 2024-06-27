@@ -10,18 +10,23 @@
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    background-color: rgb(183, 255, 68);
+    background-image:url("/photos/back.jpg");
+    background-position: left center;
+   background-size: cover;
+   background-repeat: no-repeat;
   }
+
   
   a {
     font-size: 1.5vw;
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: burlywood;
     border-radius: 10px;
     padding: 0.8rem;
     position: relative;
-    top: 0;
+    top: 10;
+    left: 80;
     transition: top ease 0.5s;
     margin-left: 500px;
     align-items: center;

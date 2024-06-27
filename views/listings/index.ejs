@@ -1,9 +1,14 @@
 <%layout("layouts/boilerplate") %> 
+
+
+
+
 <div id="filters">
   <div class="filter">
     <div><i class="fa-solid fa-fire"></i></div>
     <p>Trending</p>
   </div>
+
 
   <div class="filter">
     <div><i class="fa-solid fa-bed"></i></div>
@@ -50,7 +55,13 @@
     <p>Boats</p>
    </div>
 
-  <div class="tax-switch">
+  
+
+
+
+
+
+  <div class="tax-toggle">
     <div class="form-check-reverse form-switch">
       <input 
           class="form-check-input" 
@@ -92,6 +103,9 @@
   <% } %>
 </div>
 
+
+
+
 <script>
   let taxSwitch = document.getElementById("flexSwitchCheckDefault");
   taxSwitch.addEventListener("click", () => {
@@ -105,3 +119,6 @@
     }
   });
 </script>
+
+
+
